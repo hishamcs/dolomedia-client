@@ -53,7 +53,7 @@ function NavBar() {
   useEffect(()=> {
     if(userId) {
       // dispatch(fetchPicture(userId))
-      const skt = new WebSocket(`ws://127.0.0.1:8000/ws/notification/${userId}/`)
+      const skt = new WebSocket(`wss://dolomedia.xyz/ws/notification/${userId}/`)
       
       skt.onopen= function(e) {
         console.log('connection established...')
