@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const baseURL = 'http://3.108.249.203/api/';
+const baseURL = 'https://www.dolomedia.xyz/api/';
 
 
 const axiosInstance = axios.create({
